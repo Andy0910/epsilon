@@ -15,6 +15,7 @@ body {
   background-color: whitesmoke;
 }
 .header {
+  background-color: white;
   padding: 10px;
   box-shadow: 0px 5px 20px var(--color-SH);
   background-image: url(../assets/images/abc_griego.jpg);
@@ -22,14 +23,15 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 1;
 }
 
 .logo {
+  position: relative;
   float: left;
   width: 30%;
   padding-left: 30px;
-  z-index: 0;
+  z-index: 2;
 }
 
 .logo img {
@@ -38,16 +40,15 @@ body {
 
 .menu {
   position: fixed;
-  z-index: 1;
   top: 0;
   right: 0;
   text-align: right;
   float: right;
   text-transform: uppercase;
-  width: 70%;
+  width: 65%;
   padding-top: 25px;
   padding-bottom: 51px;
-  background-color: white;
+  z-index: 1;
 }
 
 .menu a {
@@ -88,7 +89,6 @@ body {
 
 .valores {
   margin-left: 200px;
-  scroll-behavior: smooth;
 }
 
 .animacion {
@@ -115,7 +115,7 @@ body {
   line-height: 30px;
   padding: 0px 10px 0px 30px;
   display: inline-block;
-  margin-left: 800px;
+  margin-left: 65%;
   color: white;
   z-index: -1;
 }
@@ -137,7 +137,7 @@ body {
   line-height: 30px;
   padding: 0px 10px 0px 30px;
   display: inline-block;
-  margin-left: 800px;
+  margin-left: 60%;
   color: var(--color-V);
 }
 .content2::after {
@@ -158,7 +158,7 @@ body {
   line-height: 30px;
   padding: 0px 40px 0px 60px;
   display: inline-block;
-  margin-left: 650px;
+  margin-left: 50%;
   color: var(--color-QS);
 }
 .content3::after {
@@ -179,7 +179,7 @@ body {
   line-height: 30px;
   padding: 0px 10px 0px 30px;
   display: inline-block;
-  margin-left: 500px;
+  margin-left: 35%;
   color: var(--color-V);
 }
 .content4::after {
@@ -200,7 +200,7 @@ body {
   line-height: 30px;
   padding: 0px 10px 0px 30px;
   display: inline-block;
-  margin-left: 350px;
+  margin-left: 20%;
   color: var(--color-QS);
 }
 .content5::after {
@@ -221,7 +221,7 @@ body {
   line-height: 30px;
   padding: 0px 10px 0px 220px;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 5%;
 }
 .content6::after {
   position: absolute;
@@ -237,6 +237,7 @@ body {
   background-color: var(--color-V);
   padding: 50 100 0 50;
   color: white;
+  width: 100%;
 }
 
 compro p {
@@ -283,28 +284,29 @@ compro p {
 }
 
 .bcClientes {
-  padding: 50px;
-  margin: 50px;
+  padding: 5%;
+  margin: 5%;
   background-color: var(--color-SH);
 }
 
 .imagen {
-  width: 50%;
+  width: 45%;
   float: left;
 }
 
 .info {
-  padding-top: 50px;
+  padding-top: 10%;
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 .animationA {
+  padding: 20px;
   position: relative;
   display: inline-block;
-  padding: 20 20 20 20;
   color: var(--color-B);
-  font-size: 24;
+  font-size: 15;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.5s;
@@ -328,17 +330,17 @@ compro p {
 }
 
 .contactos {
-  padding: 0 0 0 15px;
+  padding: 0 0 0 10px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 24%;
+  width: 23%;
   margin: auto;
   text-align: center;
   float: left;
   background-color: white;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .title {
@@ -365,6 +367,7 @@ button {
   background-color: var(--footerS);
   text-align: center;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .footer img {
